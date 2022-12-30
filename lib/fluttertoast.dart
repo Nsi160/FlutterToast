@@ -231,7 +231,7 @@ class FToast {
         return Positioned(top: 100.0, right: 24.0, child: child);
       case ToastGravity.CENTER:
         return Positioned(
-            top: 50.0, bottom: 50.0, left: 24.0, right: 24.0, child: child);
+            top: 35.0, bottom: 35.0, left: 24.0, right: 24.0, child: child);
       case ToastGravity.CENTER_LEFT:
         return Positioned(top: 50.0, bottom: 50.0, left: 24.0, child: child);
       case ToastGravity.CENTER_RIGHT:
